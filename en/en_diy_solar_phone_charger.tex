@@ -70,10 +70,12 @@
 \maketitle{}
 
 \begin{center}
-  \includegraphics[]{../Images/image_0_0_(demand_energy_equality).png}
+  \includegraphics[width=0.25\paperwidth]{../Images/image_0_0_(demand_energy_equality).png}
 \end{center}
 
-TODO ADD IMAGE
+\begin{center}
+  \includegraphics[width=0.45\paperwidth]{../Images/image_0_1_(solar_panel).png}
+\end{center}
 
 \vfill
   
@@ -257,7 +259,18 @@ Material may be freely shared and adapted under the following terms: You must gi
       \item Keep the soldering iron tip clean by wiping it on the wet sponge
     \end{itemize}
 
-    TODO ADD IMAGE
+    \begin{figure}[!ht]
+      \begin{minipage}{0.5\textwidth}
+          \centering
+          \includegraphics[width=0.9\textwidth]{../Images/image_2_1_(good_technique).png}
+          \caption*{Good technique}
+      \end{minipage}\hfill
+      \begin{minipage}{0.5\textwidth}
+          \centering
+          \includegraphics[width=0.9\textwidth]{../Images/image_2_2_(not_so_good_technique).png}
+          \caption*{Not so good technique}
+      \end{minipage}
+    \end{figure}
 
     Common soldering errors:
 
@@ -275,24 +288,84 @@ Material may be freely shared and adapted under the following terms: You must gi
 
 % section before_starting (end)
 
+\newpage
+
 \section{Building the panel} % (fold)
 \label{sec:building_the_panel}
 
   Summary of the construction process
 
-  \begin{itemize}
-    \item Step 1: Solder tabbing wire to the top of cells
-    \item Step 2: Lay EVA on polycarbonate sheet and arrange cells face down
-    \item Step 3: Apply enough heat to EVA to stick cells down
-    \item Step 4a: Tim tabbing wire tails  
-    \item Step 4b: Solder tabbing wire tails to the backs of cells
-    \item Step 4c: Test the voltage on each row and correct errors
-    \item Step 5a: Connect rows together (cross-tabbing)
-    \item Step 5b: Test voltage and current of whole panel
-    \item Step 6: Encapsulate cells with second sheet of EVA
-    \item Step 7: Mount solar panel onto hard backing with corner bolts
-    \item Step 8: Attach USB junction box  Completed solar charger
-  \end{itemize}
+  \begin{figure}[!ht]
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_1_(step_1).png}
+        \caption*{Step 1: Solder tabbing wire to the top of cells}
+    \end{minipage}\hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_2_(step_2).png}
+        \caption*{Step 2: Lay EVA on polycarbonate sheet and arrange cells face down}
+    \end{minipage}\hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_3_(step_3).png}
+        \caption*{Step 3: Apply enough heat to EVA to stick cells down}
+    \end{minipage}
+  \end{figure}
+
+  \begin{figure}[!ht]
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_4_(step_4a).png}
+        \caption*{Step 4a: Tim tabbing wire tails  }
+    \end{minipage}\hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_5_(step_4b).png}
+        \caption*{Step 4b: Solder tabbing wire tails to the backs of cells}
+    \end{minipage}\hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_6_(step_4c).png}
+        \caption*{Step 4c: Test the voltage on each row and correct errors}
+    \end{minipage}
+  \end{figure}
+
+  \begin{figure}[!ht]
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_7_(step_5a).png}
+        \caption*{Step 5a: Connect rows together (cross-tabbing)}
+    \end{minipage}\hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_8_(step_5b).png}
+        \caption*{Step 5b: Test voltage and current of whole panel}
+    \end{minipage}\hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_9_(step_6).png}
+        \caption*{Step 6: Encapsulate cells with second sheet of EVA}
+    \end{minipage}
+  \end{figure}
+
+  \begin{figure}[!ht]
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_10_(step_7).png}
+        \caption*{Step 7: Mount solar panel onto hard backing with corner bolts}
+    \end{minipage}\hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_11_(step_8).png}
+        \caption*{Step 8: Attach USB junction box  Completed solar charger}
+    \end{minipage}\hfill
+    \begin{minipage}{0.25\textwidth}
+        \centering
+        \includegraphics[width=0.8\textwidth]{../Images/image_3_12_(completed).png}
+        \caption*{Completed solar charger}
+    \end{minipage}
+  \end{figure}
 
   \subsection{Step 1: Soldering tabbing wire to the top of the cells} % (fold)
   \label{sub:step_1_soldering_tabbing_wire_to_the_top_of_the_cells}
@@ -350,16 +423,44 @@ Material may be freely shared and adapted under the following terms: You must gi
 
     Everyone who builds solar panels breaks cells at some point and this is a guide to whether to replace cells that get cracked. Early in the construction process before cells are stuck down and connected together you can afford to be fairly conservative and to discard most cells that get cracked. But once they are connected together it is a time consuming job to strip off the tabbing wire and to remove the cell. This a quick visual guide to help you decide whether to replace a cracked cell.
 
-    TODO ADD IMAGES
+    \begin{figure}[!ht]
+      \begin{minipage}{0.45\textwidth}
+          \centering
+          \includegraphics[]{../Images/image_3_13_(less_than_10_percent).png}
+          \caption*{Less than 10\% broken off – \textbf{OK}}
+      \end{minipage}\hfill
+      \begin{minipage}{0.45\textwidth}
+          \centering
+          \includegraphics[]{../Images/image_3_14_(more_than_10_percent).png}
+          \caption*{More than 10\% broken off - \textbf{REPLACE}}
+      \end{minipage}
+    \end{figure}
 
-    \begin{itemize}
-      \item Less than 10\% broken off – \textbf{OK}
-      \item More than 10\% broken off - \textbf{REPLACE}
-      \item Minor crack away from conductor strip – \textbf{OK}
-      \item Minor horizontal crack - \textbf{OK}
-      \item Long crack parallel to conductor strip – if the crack propagates half the cell would be lost - \textbf{REPLACE}
-      \item Long crack across conductor strip – this is \textbf{OK} providing there is tabbing wire across the crack on both sides (it effectively becomes a parallel connection) but check for shorting
-    \end{itemize}
+    \begin{figure}[!ht]
+      \begin{minipage}{0.45\textwidth}
+          \centering
+          \includegraphics[]{../Images/image_3_15_(minor_crack_away_from_strip).png}
+          \caption*{Minor crack away from conductor strip – \textbf{OK}}
+      \end{minipage}\hfill
+      \begin{minipage}{0.45\textwidth}
+          \centering
+          \includegraphics[]{../Images/image_3_16_(minor_horizontal_crack).png}
+          \caption*{Minor horizontal crack - \textbf{OK}}
+      \end{minipage}
+    \end{figure}
+
+    \begin{figure}[!ht]
+      \begin{minipage}{0.45\textwidth}
+          \centering
+          \includegraphics[]{../Images/image_3_17_(long_crack_parallel).png}
+          \caption*{Long crack parallel to conductor strip – if the crack propagates half the cell would be lost - \textbf{REPLACE}}
+      \end{minipage}\hfill
+      \begin{minipage}{0.45\textwidth}
+          \centering
+          \includegraphics[]{../Images/image_3_18_(long_crack_across).png}
+          \caption*{Long crack across conductor strip – this is \textbf{OK} providing there is tabbing wire across the crack on both sides (it effectively becomes a parallel connection) but check for shorting}
+      \end{minipage}
+    \end{figure}
 
   % subsection step_3_heating_the_eva_to_stick_the_cells (end)
 
@@ -456,7 +557,13 @@ Material may be freely shared and adapted under the following terms: You must gi
       \item Test the output of the panel by connecting a USB device to ensure that it charges
     \end{itemize}
 
-    TODO ADD IMAGES
+    \begin{center}
+      \includegraphics[width=0.8\paperwidth]{Images/image_3_19_(topdown_diagram).png}
+    \end{center}
+
+    \begin{center}
+      \includegraphics[width=0.4\paperwidth]{Images/image_3_20_(sideview_diagram).png}
+    \end{center}
   
   % subsection step_8_attach_usb_dc_dc_voltage_converter (end)
 
