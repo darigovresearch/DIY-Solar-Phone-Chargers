@@ -26,6 +26,8 @@ The original file can be previewed [here](https://github.com/darigovresearch/DIY
 | `ru`  | Russian  | [TODO](https://github.com/darigovresearch/DIY-Solar-Phone-Chargers/issues/12) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Solar-Phone-Chargers/issues/12) | [TODO](https://github.com/darigovresearch/DIY-Solar-Phone-Chargers/issues/12) | [TODO](https://github.com/darigovresearch/DIY-Solar-Phone-Chargers/issues/12) |
 | `sh`  | Serbo-Croatian  | [TODO](https://github.com/darigovresearch/DIY-Solar-Phone-Chargers/issues/5) | [Pending Translation, want to help?](https://github.com/darigovresearch/DIY-Solar-Phone-Chargers/issues/5) | [TODO](https://github.com/darigovresearch/DIY-Solar-Phone-Chargers/issues/5) | [TODO](https://github.com/darigovresearch/DIY-Solar-Phone-Chargers/issues/5) |
 
+We have also been experimenting with a [sphinx-based](https://www.sphinx-doc.org/en/master/) version [at this URL](https://darigovresearch.github.io/DIY-Solar-Phone-Chargers/) which may end up being easier to convert to offline pdfs & a more interactive site.
+
 ## Potential Improvements Yet to be Made
 1. To find a way to systematically pull the content if there are any updates from the original source in the future.
     - Currently this was all done manually.
