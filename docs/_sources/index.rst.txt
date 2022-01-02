@@ -10,11 +10,7 @@ Welcome to DIY Solar: Phone Chargers's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   preface
+   before_starting
+   building_the_panel
+   appendix_1__sourcing_materials_(and_possible_alternatives)
