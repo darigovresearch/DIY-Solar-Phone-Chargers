@@ -11,6 +11,7 @@ Welcome to DIY Solar: Phone Chargers's documentation!
    :caption: Contents:
 
    preface
+   introduction
    before_starting
    building_the_panel
    appendix_1__sourcing_materials_(and_possible_alternatives)

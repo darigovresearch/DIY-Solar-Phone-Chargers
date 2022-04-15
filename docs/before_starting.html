@@ -16,7 +16,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Building the panel" href="building_the_panel.html" />
-    <link rel="prev" title="Preface" href="preface.html" />
+    <link rel="prev" title="Introduction" href="introduction.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -37,12 +37,79 @@
 <h1>Before starting<a class="headerlink" href="#before-starting" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="staying-safe">
 <h2>Staying safe<a class="headerlink" href="#staying-safe" title="Permalink to this headline">¶</a></h2>
+<p>You should be aware of and familiarise yourself with any potential hazards involved in making a solar charger. Ensure you are working in a suitable environment - work indoors on a stable, clear surface, and make sure any trip hazards from trailing cables are cleared away. Have a source of water nearby for the emergency treatment of burns.</p>
+<p>Recognise that liquid flux is an irritant so avoid direct contact with your hands when using it and rinse off your hands asap once you’re done. If it gets in your eyes or mouth wash it out immediately.</p>
+<p>The main sources of danger are the soldering irons (DEE uses 80W irons that get significantly hotter than standard soldering irons).</p>
+<ul class="simple">
+<li><p>handle soldering irons with care, making sure to never touch the hot metal parts.</p></li>
+<li><p>do not grab an iron if it is dropped on the floor.</p></li>
+<li><p>though the soldering irons have heat resistant cables it is possible to burn through them which would cause an electrical hazard.</p></li>
+<li><p>Always place the soldering iron back in the stand when not in use.</p></li>
+<li><p>put burns under running cold water for several minutes.</p></li>
+</ul>
+<p>The metal nozzles of heat guns can get very hot, especially on the high setting or with sustained use. They present similar safety issues as soldering irons. While using them, be careful not to point them towards people or anything that would be damaged by heat, and when finished with them always place the heat gun on its back or with the nozzle resting on a non-flammable surface (e.g. the tile on a soldering station).</p>
 </div>
 <div class="section" id="tools-and-materials">
 <h2>Tools and materials<a class="headerlink" href="#tools-and-materials" title="Permalink to this headline">¶</a></h2>
+<p>To complete a solar charger you will ideally need</p>
+<ul class="simple">
+<li><p>a 40W-80W soldering iron with a flat tip, with a secure soldering stand with a damp sponge</p></li>
+<li><p>a flat heatproof surface, e.g. a ceramic tile</p></li>
+<li><p>a flux pen – if these are refillable type they will need to be filled with liquid flux</p></li>
+<li><p>small wire cutters</p></li>
+<li><p>large household scissors</p></li>
+<li><p>small nose pliers</p></li>
+<li><p>a 2000W heat gun with high and low settings</p></li>
+<li><p>a flat head screwdriver</p></li>
+<li><p>a utility (Stanley) knife</p></li>
+<li><p>a multimeter set to measure DC voltage</p></li>
+<li><p>extra solder</p></li>
+<li><p>extra EVA</p></li>
+<li><p>a hot glue gun</p></li>
+<li><p>a grow lamp (optional, for indoor testing)</p></li>
+<li><p>heat-proof gloves (optional)</p></li>
+<li><p>a sheet of 4mm thick UV resistant polycarbonate, 350mm x 235mm, with 4mm holes drilled in each corner</p></li>
+<li><p>0.5 Watt PV cells, approx 80mm x 40mm (25 cells should be enough, allowing for breakages)</p></li>
+<li><p>approx 2.5m of tabbing wire</p></li>
+<li><p>two sheets of EVA cut slightly larger than the polycarbonate sheet</p></li>
+<li><p>a sheet of thin plywood or other hard backing, 350mm x 300mm, with holes drilled to line up with the polycarbonate corner holes</p></li>
+<li><p>two small terminal blocks</p></li>
+<li><p>two 130mm lengths of 0.75sqmm wire</p></li>
+<li><p>A USB junction box (or small DC 12v-5v USB voltage converter)</p></li>
+</ul>
+<p>See the Appendix for more info on how to source materials for a DIY solar panel.</p>
 </div>
 <div class="section" id="how-to-solder">
 <h2>How to solder<a class="headerlink" href="#how-to-solder" title="Permalink to this headline">¶</a></h2>
+<p>This is the key skill that is needed to join solar cells together.</p>
+<p>Solar cells are connected together in series by soldering a length of tabbing wire from the front of one cell to the back of the next. Solar cells have white conductive strips on each side that tabbing wire can be soldered onto.</p>
+<p>General tips for good soldering technique for solar cells:</p>
+<ul class="simple">
+<li><p>Make sure the tabbing wire is flat and straight – draw the wire between your fingers to flatten it.</p></li>
+<li><p>Remove dirt and oxidation by applying flux</p></li>
+<li><p>Ensure that the surfaces to be joined are heated to a sufficient temperature to allow the solder to flow (which is aided by the flux). This can be achieved by holding the soldering iron on a point to allow heat to build up until you can see the solder melting before moving the tip</p></li>
+<li><p>If using a chisel tip, hold the soldering iron vertically so that the flat tip has maximum contact with the tabbing wire (see photo below).</p></li>
+<li><p>Slowly draw the soldering iron along the tabbing wire (learning the right speed is a trial and error process). It should be possible to see the solder go shiny as it melts and then forms a wave as the soldering iron is drawn along the tabbing wire.</p></li>
+<li><p>Keep the soldering iron tip clean by wiping it on the wet sponge</p></li>
+</ul>
+<div class="figure align-default" id="id1">
+<a class="reference internal image-reference" href="_images/image_2_1_(good_technique).png"><img alt="_images/image_2_1_(good_technique).png" src="_images/image_2_1_(good_technique).png" style="width: 311.64px; height: 233.73px;" /></a>
+<p class="caption"><span class="caption-text">Good technique</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="id2">
+<a class="reference internal image-reference" href="_images/image_2_2_(not_so_good_technique).png"><img alt="_images/image_2_2_(not_so_good_technique).png" src="_images/image_2_2_(not_so_good_technique).png" style="width: 311.64px; height: 233.73px;" /></a>
+<p class="caption"><span class="caption-text">Not so good technique</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+<p>Common soldering errors:</p>
+<ul class="simple">
+<li><p>Forgetting to apply flux</p></li>
+<li><p>Moving the soldering iron too fast, not allowing enough time for the tabbing wire and cell below to heat up</p></li>
+<li><p>Not holding the soldering iron vertically</p></li>
+<li><p>Wiping the soldering iron repeatedly along the tabbing wire (this can remove the solder) – it is better to just do one slow stroke.</p></li>
+<li><p>Not cleaning the tip of the soldering iron regularly enough.</p></li>
+<li><p>Breaking cells by mishandling them or applying too much force with the soldering iron.</p></li>
+<li><p>Tabbing wire extending over the edge of the cell</p></li>
+</ul>
 </div>
 </div>
 
@@ -66,6 +133,7 @@
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Before starting</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#staying-safe">Staying safe</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#tools-and-materials">Tools and materials</a></li>
@@ -80,7 +148,7 @@
 <h3>Related Topics</h3>
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="preface.html" title="previous chapter">Preface</a></li>
+      <li>Previous: <a href="introduction.html" title="previous chapter">Introduction</a></li>
       <li>Next: <a href="building_the_panel.html" title="next chapter">Building the panel</a></li>
   </ul></li>
 </ul>
