@@ -3,31 +3,96 @@ Building the panel
 
 Step 1: Soldering tabbing wire to the top of the cells
 -----------------------------------------------------------
+You will need to become confident at soldering and build up a stock of cells with tabbing wire on one side. The first step is to solder an 80mm length of tabbing wire on to the thick white conductive strip on the front of the solar cell. Place the solar cell on the ceramic tile and lay the piece of tabbing wire over the white strip. The tabbing wire should be roughly twice the width of the solar cell, and you want to have a long ‘tail’ of wire running off the bottom of the cell. It’s important that the other end of the wire doesn’t hang over the edge of the top of the cell - always leave a couple of millimeters of clear space between the edge of the cell and the end of the wire. Each cell will generate 0.5V - you will need 20 of these to create a 10 volt panel.
 
+The tabbing wire tails from each cell will need to line up with the conductive contacts on the back of the next cell – some cells have their conductive strips off-set to one side, so make sure all the cells in a row all have their tails and conductive contacts in alignment. 
+
+Additional spare cells can be soldered to replace possible breakages, to save time later. 
+
+Tips 
+
+- Avoid soldering too close to the edge of the cell - loose solder on the edge of a cell can cause it to short circuit. 
+- Putting too much pressure on the cells can cause them to crack. 
+- If cell contacts are off-centre, make sure that the tabbing wire on all cells lines up when it comes to connecting them in columns
 
 Step 2: Preparing the polycarbonate and placing the cells
 ---------------------------------------------------------
+Place one sheet of EVA on the polycarbonate (remove any protective film first). Arrange the tabbed cells face down on the panel in 4 rows of 5 cells, with the tails bent so that they point slightly up. There should be a clearly visible gap between each cell (~2mm) and a gap at the top and bottom of each row (~5-10mm). It can be useful to have a grid drawn out on a sheet of paper to aid the correct arrangement of the cells. The direction of cells in each column should alternate, so that they can be connected in series to create a continuous string (or “snake”). 
 
+You may need to cut/trim sheets of EVA to use – they should be slightly larger than the polycarbonate sheets, with a margin of around 5mm on each edge. You will need two of these sheets, so it’s advisable to cut them both at the same time.
+
+Tips 
+
+- Avoid shorting the circuit by not having cells touching each other.
+- Check that rows of cells are running in opposite directions – failure to do so can waste a lot of time and materials.
+- Check that contact points for soldering tabbing wire tails are all lined up properly.
+- Check each cell for cracks or poor soldering before placing it.
 
 Step 3: Heating the EVA to stick the cells
 ------------------------------------------
+This step involves sticking cells to the sheet of polycarbonate using heated EVA. Use the low setting on your heat gun to apply heat to the cells and the EVA. As it heats the EVA should turn transparent and become tacky. If the EVA is creased or folded, it may be necessary to carefully apply a little pressure to the edges of each cell as they heat up to make sure they are stuck flat on the polycarbonate. Once the heat is removed, the EVA will cool and cells will remain bonded. It's not necessary to apply a lot of heat at this stage – just enough to fix the cells in place to allow the tabbing wire tails to be soldered. Give the tail of each cell a slight wiggle to check it is fixed in place.
 
+Tips 
+
+- If cells crack after they've been stuck down, you will need to use the heat gun to loosen the EVA bond before you can remove the broken cell. If the cell is removed while the EVA is cool, it will fragment into lots of tiny pieces which are time-consuming to remove. 
+- The easiest way to remove a broken cell is to use a thin blade to carefully lift the cell off once the EVA is hot. 
+- Once a cell has been removed, you may need to use an extra patch of EVA to fill any holes – it's useful to have some spare EVA offcuts available for this purpose.
+- Overheating can cause cells to be overly stuck down and then difficult to remove later
 
 Step 4: Tabbing the other side of the cells
 -------------------------------------------
+Once the tabbed cells are stuck to the polycarbonate the tails can be soldered onto the backs of adjacent cells to connect them in series. You should now trim any excess tabbing wire on each tail using small wire cutters - any wire that extends beyond the contact on the back of the adjacent cell isn’t needed, and wires should end a few mm short of the edge of the cell. Solder each tabbing wire tail to the back of the next cell, using a similar technique as on the front of the cell. Since the tabbing wire tails will try to spring up when being soldered, you can use the tip of a screwdriver or some other heat-proof implement to hold them in place while they are being soldered. Leave the tails coming off the end of each row, and cells at the other end of each row will need an extra strip of tabbing wire soldered to their backs.
 
+Tips 
+
+- Avoid shorting the circuit by not soldering too close to the edge of the cell, and avoid putting too much pressure on the cells as they are likely to crack.
+- If cells crack at this stage, they will need to be de-soldered from adjacent cells before they can be removed from the EVA as above.
+- Check tabbing wire tails are firmly soldered to the back of cells by using a fingernail to try to lift them. Any weak connections that are not spotted at this stage are likely to fail when the cells are encapsulated.
+- Using a multimeter and a light source to test each row of cells before moving on to the next stage can allow you to spot and fix problems early.
+- GO SLOWLY as breakages now are very hard to fix
 
 Step 5: Cross tabbing
 ---------------------
+Before starting, identify the positive and negative terminals of your solar panel, which will be on the same edge of the panel coming from the end cell of the outer rows. This will determine the rows that need to be connected to create a continuous ‘snake’ of cells. A piece of tabbing wire is used to connect across each row. To keep the cross tabbing secure, but also allow access to it in the event of a problem, the cross-tabbing should run between rows just inside the edge of the polycarbonate. 
 
+Take a piece of tabbing wire that is around 10mm longer than the distance between the tails on the rows that need to be connected and lay it under them. With the cross-tabbing wire in position, fold the ends very tightly up and around each tail, crimping the joint with a pair of small-nosed pliers if necessary. Hold the free end of one of the tails, lifting it up very slightly to keep it off the plastic underneath. Use a soldering iron to melt the solder on both wires together - this should only take around 5 seconds. Give the cross-tabbing wire a gentle tug to check that it is firmly connected. Repeat for the other tail. 
+
+Once the rows have been connected, you should have a continuous series of cells, with two free lengths of tabbing wire remaining at each end. These are the terminal wires, and should be left extending out from the polycarbonate sheet. One is the positive terminal, and the other is the negative. Optional - you can also solder short (~5cm) lengths of flex wire to the positive and negative terminals of the panel.
+
+Tips 
+
+- Make sure not to connect the tops and bottoms of two rows together to create a loop. 
+- Optional - use the end of a pair of scissors under the cross tabbing joints when soldering to provide a firm base and avoid melting the polycarbonate. 
+- Make sure to test the output of the whole panel before moving on to the next stage (see Testing the panel above). You should get a reading of at least 10 volts.
 
 Step 6: Encapsulation
 ---------------------
+Use a second sheet of pre-cut EVA, placed over the backs of the cells to encapsulate the panel. Encapsulation seals the cells from air and water intrusion, and prevents failure due to galvanic corrosion. Use the heat gun on a high setting to seal the cells and tabbing wires, applying heat evenly to the whole panel. It usually takes around 5 mins to get the EVA up to the right temperature, by which point it will look clear and glossy, and will be very sticky to touch.
 
+Once this has been done, leave the panel to cool for a couple of minutes, then use a pair of scissors to trim any excess EVA around the edge of the panel - making sure not to cut the tabbing wires.
+
+Tips 
+
+- All cells should be totally encapsulated – make sure there are no edges sticking out.
+- The application of heat at this stage may break poorly soldered connections as the metal expands – this can cause the panel to perform poorly, or even break it entirely. It's very important to ensure all soldered connections are good before this stage. 
+- When using the high heat setting, ensure that the heat gun is constantly moving to avoid creating a hot spot and warping the polycarbonate.
+- The colder the environment you’re working in, the longer it will take to heat up the EVA, so if you’re working in a cold space, add more time for this step.
 
 Step 7: Bonding the panel into the neoprene case
 ------------------------------------------------
+At this point, the panel can be mounted onto a hard backing using small corner bolts. Our design uses 5.5mm plywood sheets, and 4mm bolts. 
 
+Use wire cutters or a sharp knife or the tip of a small screwdriver to create a hole in the EVA over the corner holes. Keeping the panel face down to protect the cells, insert a bolt from beneath through each hole. Place 2 nylon washers over each bolt - these act as spacers, keeping the panel raised off the hard backing to protect the cells from being crushed. Offer up the plywood sheet to the solar panel from above - it’s important to ensure that the corner holes in the polycarbonate and plywood line up so that all the bolts are aligned with the holes and the plywood sheet can be fitted on easily. With the plywood attached, place a metal washer and nut onto the end of each bolt and tighten.
+
+Tips 
+
+- Mark the polycarbonate and plywood in advance to show how the holes are aligned
 
 Step 8: Attach USB DC-DC voltage converter
 ------------------------------------------
+Attach a small terminal block to each wire coming from the panel and bend the wires around so the free end of the terminal block is facing the inside of the panel. Apply hot glue to the terminal blocks to fix them securely on their sides next to the edge of the polycarbonate sheet. The terminal blocks are used to connect a USB junction box that includes a DC-DC voltage converter, which steps the 10V output of the panel down to 5V for charging USB devices. The junction boxes we use come without wires attached - you will need to solder 0.75sqmm wires onto the positive and negative contacts. Use the terminal block to connect the positive wire on the junction box to the positive wire from the solar panel, and the same for the negative wire. The positive wire from the solar panel will be the tabbing wire running from the back of a cell, and the negative will be running from the front of a cell. If you’re not sure which is which, use a multimeter to check.
+
+Tips
+
+- Check that the positive (red) wire of the DC converter is connected to the positive terminal from the panel, and the negative (black) wire to the negative.
+- Test the output of the panel by connecting a USB device to ensure that it charges.
