@@ -1,10 +1,10 @@
-Appendix 1: Sourcing materials (and possible alternatives) 
+Appendix 1: Sourcing materials (and possible alternatives)
 ==========================================================
 
 Solar cells
 -----------
 
-DEE uses reclaimed 6” square cells that are cut down into regular 1/8th size pieces prior to the workshop. This removes damaged sections of the cells and makes it easier to construct a panel of modest size with a sufficient charging voltage. 
+DEE uses reclaimed 6” square cells that are cut down into regular 1/8th size pieces prior to the workshop. This removes damaged sections of the cells and makes it easier to construct a panel of modest size with a sufficient charging voltage.
 
 DEE can supply cells already cut to these sizes on request, but you can cut your own using a rotary tool (Dremel) with a fine diamond-tipped cutting disk. It works best if built into a jig to make a mini-table saw, that allows you to cut stacks of a dozen cells at a time. The cutting process creates a lot of dust, debris and noise, so goggles, ear protectors, and a dust mask are essential. Contact us if you'd like more details on how to do this.
 
@@ -37,29 +37,29 @@ You can also use a specialist two-part epoxy such as Qsil to encapsulate solar c
 Tabbing wire
 ------------
 
-Tabbing wire is thin, flat conductive wire that is coated in a layer of solder. 
+Tabbing wire is thin, flat conductive wire that is coated in a layer of solder.
 
 DEE has several long reels of 2mm tabbing wire that we use for our workshops, and we can supply it in various lengths.
 
-Tabbing wire can be ordered on eBay and several other websites in large and small quantities. 
+Tabbing wire can be ordered on eBay and several other websites in large and small quantities.
 
 Flux pens
 ---------
 
 Flux is used to clean the surface of the metallic contacts of solar cells and to help the molten solder flow into the microscopic crevices of the material being soldered onto to create a strong bond.
 
-DEE uses liquid flux, applied with refillable watercolour brush pens. 
+DEE uses liquid flux, applied with refillable watercolour brush pens.
 
 For small solar panel soldering jobs, you can can also use a disposable flux pen. These are readily available on ebay.
 
 DC converters
 -------------
 
-The DC voltage converter is used to step down the incoming voltage from the solar panel to a stable 5v voltage for a USB output. 
+The DC voltage converter is used to step down the incoming voltage from the solar panel to a stable 5v voltage for a USB output.
 
 The DC converters DEE use are enclosed buck converters that are reasonably cheap, efficient, sturdy and waterproof, but there are plenty of other options available that do a similar job. E.g. you could wire in a cigarette lighter socket and use a plug-in USB charger... this would allow you to use the solar panel to supply power to other 12V devices that use a cigarette lighter plug. You could also use an LM7805 voltage regulator, but it would need a decent heat sink to be used with a 12V supply for any length of time.
 
-These are all readily available from eBay and other online shops. 
+These are all readily available from eBay and other online shops.
 
 USB Battery packs
 -----------------

@@ -8,13 +8,13 @@ You should be aware of and familiarise yourself with any potential hazards invol
 
 Recognise that liquid flux is an irritant so avoid direct contact with your hands when using it and rinse off your hands asap once you’re done. If it gets in your eyes or mouth wash it out immediately.
 
-The main sources of danger are the soldering irons (DEE uses 80W irons that get significantly hotter than standard soldering irons). 
+The main sources of danger are the soldering irons (DEE uses 80W irons that get significantly hotter than standard soldering irons).
 
-- handle soldering irons with care, making sure to never touch the hot metal parts. 
-- do not grab an iron if it is dropped on the floor. 
+- handle soldering irons with care, making sure to never touch the hot metal parts.
+- do not grab an iron if it is dropped on the floor.
 - though the soldering irons have heat resistant cables it is possible to burn through them which would cause an electrical hazard.
 - Always place the soldering iron back in the stand when not in use.
-- put burns under running cold water for several minutes. 
+- put burns under running cold water for several minutes.
 
 The metal nozzles of heat guns can get very hot, especially on the high setting or with sustained use. They present similar safety issues as soldering irons. While using them, be careful not to point them towards people or anything that would be damaged by heat, and when finished with them always place the heat gun on its back or with the nozzle resting on a non-flammable surface (e.g. the tile on a soldering station).
 
@@ -23,7 +23,7 @@ Tools and materials
 
 To complete a solar charger you will ideally need
 
-- a 40W-80W soldering iron with a flat tip, with a secure soldering stand with a damp sponge 
+- a 40W-80W soldering iron with a flat tip, with a secure soldering stand with a damp sponge
 - a flat heatproof surface, e.g. a ceramic tile
 - a flux pen – if these are refillable type they will need to be filled with liquid flux
 - small wire cutters
@@ -54,7 +54,7 @@ How to solder
 
 This is the key skill that is needed to join solar cells together.
 
-Solar cells are connected together in series by soldering a length of tabbing wire from the front of one cell to the back of the next. Solar cells have white conductive strips on each side that tabbing wire can be soldered onto. 
+Solar cells are connected together in series by soldering a length of tabbing wire from the front of one cell to the back of the next. Solar cells have white conductive strips on each side that tabbing wire can be soldered onto.
 
 General tips for good soldering technique for solar cells:
 
