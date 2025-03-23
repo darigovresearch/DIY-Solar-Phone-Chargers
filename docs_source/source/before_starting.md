@@ -1,8 +1,6 @@
-Before starting
-===============
+# Before starting
 
-Staying safe
-------------
+## Staying safe
 
 You should be aware of and familiarise yourself with any potential hazards involved in making a solar charger. Ensure you are working in a suitable environment - work indoors on a stable, clear surface, and make sure any trip hazards from trailing cables are cleared away. Have a source of water nearby for the emergency treatment of burns.
 
@@ -18,8 +16,7 @@ The main sources of danger are the soldering irons (DEE uses 80W irons that get 
 
 The metal nozzles of heat guns can get very hot, especially on the high setting or with sustained use. They present similar safety issues as soldering irons. While using them, be careful not to point them towards people or anything that would be damaged by heat, and when finished with them always place the heat gun on its back or with the nozzle resting on a non-flammable surface (e.g. the tile on a soldering station).
 
-Tools and materials
--------------------
+## Tools and materials
 
 To complete a solar charger you will ideally need
 
@@ -49,8 +46,7 @@ To complete a solar charger you will ideally need
 
 See the Appendix for more info on how to source materials for a DIY solar panel.
 
-How to solder
--------------
+## How to solder
 
 This is the key skill that is needed to join solar cells together.
 
@@ -65,15 +61,15 @@ General tips for good soldering technique for solar cells:
 - Slowly draw the soldering iron along the tabbing wire (learning the right speed is a trial and error process). It should be possible to see the solder go shiny as it melts and then forms a wave as the soldering iron is drawn along the tabbing wire.
 - Keep the soldering iron tip clean by wiping it on the wet sponge
 
-.. figure:: ../../Images/image_2_1_(good_technique).png
-   :scale: 49%
-   
-   Good technique
+![Good technique][Good_technique]
+**Good technique**
 
-.. figure:: ../../Images/image_2_2_(not_so_good_technique).png
-   :scale: 49%
-   
-   Not so good technique
+[Good_technique]: ../../Images/image_2_1_(good_technique).png "Good technique"
+
+![Not so good technique][Not_so_ _good_technique]
+**Not so good technique**
+
+[Not_so_ _good_technique]: ../../Images/image_2_2_(not_so_good_technique).png "Not so good technique"
 
 Common soldering errors:
 
