@@ -1,5 +1,59 @@
 # Building the panel
 
+**Summary of the construction process**
+
+![image](../../Images/image_3_1_(step_1).png)
+
+Step 1: Solder tabbing wire to the top of cells
+
+![image](../../Images/image_3_2_(step_2).png)
+
+Step 2: Lay EVA on polycarbonate sheet and arrange cells face down
+
+![image](../../Images/image_3_3_(step_3).png)
+
+Step 3: Apply enough heat to EVA to stick cells down
+
+
+![image](../../Images/image_3_4_(step_4a).png)
+
+Step 4a: Tim tabbing wire tails
+
+![image](../../Images/image_3_5_(step_4b).png)
+
+Step 4b: Solder tabbing wire tails to the backs of cells
+
+![image](../../Images/image_3_6_(step_4c).png)
+
+Step 4c: Test the voltage on each row and correct errors
+
+
+![image](../../Images/image_3_7_(step_5a).png)
+
+Step 5a: Connect rows together (cross-tabbing)
+
+![image](../../Images/image_3_8_(step_5b).png)
+
+Step 5b: Test voltage and current of whole panel
+
+![image](../../Images/image_3_9_(step_6).png)
+
+Step 6: Encapsulate cells with second sheet of EVA
+
+
+![image](../../Images/image_3_10_(step_7).png)
+
+Step 7: Mount solar panel onto hard backing with corner bolts
+
+![image](../../Images/image_3_11_(step_8).png)
+
+Step 8: Attach USB junction box Completed solar charger
+
+![image](../../Images/image_3_12_(completed).png)
+
+Completed solar charger
+
+
 ## Step 1: Soldering tabbing wire to the top of the cells
 You will need to become confident at soldering and build up a stock of cells with tabbing wire on one side. The first step is to solder an 80mm length of tabbing wire on to the thick white conductive strip on the front of the solar cell. Place the solar cell on the ceramic tile and lay the piece of tabbing wire over the white strip. The tabbing wire should be roughly twice the width of the solar cell, and you want to have a long ‘tail’ of wire running off the bottom of the cell. It’s important that the other end of the wire doesn’t hang over the edge of the top of the cell - always leave a couple of millimeters of clear space between the edge of the cell and the end of the wire. Each cell will generate 0.5V - you will need 20 of these to create a 10 volt panel.
 
@@ -35,6 +89,34 @@ Tips
 - Once a cell has been removed, you may need to use an extra patch of EVA to fill any holes – it's useful to have some spare EVA offcuts available for this purpose.
 - Overheating can cause cells to be overly stuck down and then difficult to remove later
 
+**A note on cracks**
+
+Everyone who builds solar panels breaks cells at some point and this is a guide to whether to replace cells that get cracked. Early in the construction process before cells are stuck down and connected together you can afford to be fairly conservative and to discard most cells that get cracked. But once they are connected together it is a time consuming job to strip off the tabbing wire and to remove the cell. This a quick visual guide to help you decide whether to replace a cracked cell.
+
+![Image](../../Images/image_3_13_(less_than_10_percent).png)
+
+Less than 10\% broken off – **OK**
+
+![Image](../../Images/image_3_14_(more_than_10_percent).png)
+
+More than 10\% broken off - **REPLACE**
+
+![Image](../../Images/image_3_15_(minor_crack_away_from_strip).png)
+
+Minor crack away from conductor strip – **OK**
+
+![Image](../../Images/image_3_16_(minor_horizontal_crack).png)
+
+Minor horizontal crack - **OK**
+
+![Image](../../Images/image_3_17_(long_crack_parallel).png)
+
+Long crack parallel to conductor strip – if the crack propagates half the cell would be lost - **REPLACE**
+
+![Image](../../Images/image_3_18_(long_crack_across).png)
+
+Long crack across conductor strip – this is **OK** providing there is tabbing wire across the crack on both sides (it effectively becomes a parallel connection) but check for shorting
+
 ## Step 4: Tabbing the other side of the cells
 Once the tabbed cells are stuck to the polycarbonate the tails can be soldered onto the backs of adjacent cells to connect them in series. You should now trim any excess tabbing wire on each tail using small wire cutters - any wire that extends beyond the contact on the back of the adjacent cell isn’t needed, and wires should end a few mm short of the edge of the cell. Solder each tabbing wire tail to the back of the next cell, using a similar technique as on the front of the cell. Since the tabbing wire tails will try to spring up when being soldered, you can use the tip of a screwdriver or some other heat-proof implement to hold them in place while they are being soldered. Leave the tails coming off the end of each row, and cells at the other end of each row will need an extra strip of tabbing wire soldered to their backs.
 
@@ -45,6 +127,14 @@ Tips
 - Check tabbing wire tails are firmly soldered to the back of cells by using a fingernail to try to lift them. Any weak connections that are not spotted at this stage are likely to fail when the cells are encapsulated.
 - Using a multimeter and a light source to test each row of cells before moving on to the next stage can allow you to spot and fix problems early.
 - GO SLOWLY as breakages now are very hard to fix
+
+**Testing the panel**
+
+Testing is best done in bright sunshine outside but in some circumstances it can be carried out over a high wattage grow lamp placed under a glass-topped table. 
+
+Use a multimeter set to measure DC voltage, on the 20V setting. With the solar panel pointing towards the light source, touch the probes on the multimeter to the tabbing wire coming off each end of a row to measure the voltage it is generating. Each row of 5 cells should measure around 2.5 volts. If you are measuring less than that, it may be because there is not enough light for testing, or that one or more cells is short circuited. Touch the probes to the tabbing wire running either side of a cell to measure the voltage of each individual cell - if any of those is reading 0 volts, it is short circuited. If the entire row is reading 0 volts, there is a bad connection - go over each soldered contact on each cell to make sure the connections are good, and test again.
+
+You can also use the multimeter to check the polarity of each row - touching the positive probe to the positive side of the row and the negative probe to the negative side of the row will give a positive result - reversing the probes will give a negative result.
 
 ## Step 5: Cross tabbing
 Before starting, identify the positive and negative terminals of your solar panel, which will be on the same edge of the panel coming from the end cell of the outer rows. This will determine the rows that need to be connected to create a continuous ‘snake’ of cells. A piece of tabbing wire is used to connect across each row. To keep the cross tabbing secure, but also allow access to it in the event of a problem, the cross-tabbing should run between rows just inside the edge of the polycarbonate.
@@ -87,3 +177,6 @@ Tips
 
 - Check that the positive (red) wire of the DC converter is connected to the positive terminal from the panel, and the negative (black) wire to the negative.
 - Test the output of the panel by connecting a USB device to ensure that it charges.
+
+![Image](../../en/Images/image_3_19_(topdown_diagram).png)
+![Image](../../en/Images/image_3_20_(sideview_diagram).png)

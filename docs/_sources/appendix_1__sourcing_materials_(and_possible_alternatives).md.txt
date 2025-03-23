@@ -58,6 +58,6 @@ These are all readily available from eBay and other online shops.
 
 DEE recommends using a USB power bank with a solar charger to make best use of it. Having a power bank battery gives you the option to store energy that you can use to recharge your devices at night, instead of only using the solar power to charge devices directly when the sun is out.
 
-One of the other workshops run by DEE shows how to make a USB power bank using lithium cells recovered from old laptop batteries. See <https://www.demandenergyequality.org/our-workshops/> page for details.
+One of the other workshops run by DEE shows how to make a USB power bank using lithium cells recovered from old laptop batteries. See [our workshops](https://www.demandenergyequality.org/our-workshops/) page for details.
 
 In good direct sunlight, a 12W solar charger should be able to charge up a mobile phone or a 2000mAh battery pack in 2 hours. Bigger USB battery packs are available if you are looking for more storage.

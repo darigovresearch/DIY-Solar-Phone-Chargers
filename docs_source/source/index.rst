@@ -3,8 +3,27 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to DIY Solar: Phone Chargers's documentation!
-=====================================================
+DIY Solar: Phone Chargers
+=========================
+
+A step by step guide
+--------------------
+June 2019
+
+Version 2.0
+
+.. figure:: ../../Images/image_0_0_(demand_energy_equality).png
+   
+
+.. figure:: ../../Images/image_0_1_(solar_panel).png
+
+
+.. figure:: ../../Images/image_0_2_(license).png
+
+This guide is provided under a `Creative Commons BY-SA <https://creativecommons.org/licenses/by-sa/4.0/legalcode>`_ license:
+
+Material may be freely shared and adapted under the following terms: You must give appropriate credit, provide a link to the license, and indicate if changes were made, and further distribution must be under the same license as the original.
+
 
 .. toctree::
    :maxdepth: 2
